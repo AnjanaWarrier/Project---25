@@ -22,10 +22,10 @@ function setup() {
 	ground = new Ground(400,650,800,5);
 
 	box1 = new Box(600,650,200,20);
-	box2 = new Box(700,500,20,300);
-	box3 = new Box(500,500,20,300);
+	box2 = new Box(700,520,20,250);
+	box3 = new Box(500,520,20,250);
 
-	boxSprite = createSprite(600,500,200,300);
+	boxSprite = createSprite(600,520,200,250);
 	boxSprite.addImage(dustbinImage);
 	boxSprite.scale=0.95
 
